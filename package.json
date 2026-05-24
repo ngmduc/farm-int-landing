@@ -24,7 +24,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "export:web": "expo export -p web --output-dir dist && python scripts/fix-vendor-paths.py",
+    "export:web": "expo export -p web --output-dir dist && python3 scripts/fix-vendor-paths.py",
     "type-check": "tsc --noEmit"
   },
   "private": true
